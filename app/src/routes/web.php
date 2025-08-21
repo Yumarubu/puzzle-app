@@ -10,7 +10,7 @@ Route::get('/', function (){
 
 Route::get('login', [AccountController::class, 'login']);
 //Route::post('dologin', [AccountController::class, 'dologin']);
-Route::get('accounts/index',[AccountController::class, 'dologin']);
+Route::get('/index',[AccountController::class, 'dologin']);
 
 //一覧表示画面
 //Route::get('items/index',[ItemController::class,'index'])->name('items.index');
