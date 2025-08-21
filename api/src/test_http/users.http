@@ -1,0 +1,5 @@
+### ユーザー情報取得
+GET http://localhost:8000/api/users/1
+Accept: application/json
+
+
