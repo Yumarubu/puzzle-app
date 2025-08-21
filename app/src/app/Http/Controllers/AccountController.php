@@ -27,8 +27,9 @@ class AccountController extends Controller
     }
 
     public function dologin(Request $request){
-        //@if ('name' !== 'jobi' && 'password' !== 'jobi')
-
-        return redirect('dologin');
+        if ('name' == 'jobi' && 'password' == 'jobi')
+        {
+            return redirect('index');
+        }
     }
 }

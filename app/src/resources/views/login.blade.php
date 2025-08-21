@@ -11,6 +11,12 @@
     <p><input type="text" name="password"></p>
 
     <input type="submit" value="ログイン">
+
+    @if ('name' !== 'jobi' && 'password' !== 'jobi')
+        名前とパスワードに誤りがあります。
+    @elseif ('name' !== 'jobi' && 'password' == 'jobi')
+        名前に誤りがあります。
+    @endif
 </form>
 </div>
 @endsection
