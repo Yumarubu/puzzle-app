@@ -8,9 +8,10 @@ Route::get('/', function (){
     return view('welcome');
 });
 
-Route::get('login', [AccountController::class, 'login']);
+Route::get('/', [AccountController::class, 'login']);
+Route::get('accounts/index',[AccountController::class, 'index']);
 //Route::post('dologin', [AccountController::class, 'dologin']);
-Route::get('/index',[AccountController::class, 'dologin']);
+
 
 //一覧表示画面
 //Route::get('items/index',[ItemController::class,'index'])->name('items.index');

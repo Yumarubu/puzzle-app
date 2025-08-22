@@ -10,7 +10,8 @@
     <p><input type="text" name="name"></p>
     <p><input type="text" name="password"></p>
 
-    <input type="submit" value="ログイン">
+    <a href="accounts/index">次へ</a>
+    <!--<input type="submit" value="ログイン">-->
 
     @if ('name' !== 'jobi' && 'password' !== 'jobi')
         名前とパスワードに誤りがあります。
