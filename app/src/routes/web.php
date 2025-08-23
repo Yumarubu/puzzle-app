@@ -4,14 +4,14 @@ use App\Http\Controllers\AccountController;
 use App\Http\Controllers\AuthControlloer;
 use \App\Http\Middleware\AuthMiddleware;
 
-Route::get('/', function (){
-    return view('welcome');
-});
+//Route::get('/', function (){
+    //return view('welcome');
+//});
 
 Route::get('/', [AccountController::class, 'login']);
+//Route::get('/{error_id?}', [AccountController::class, 'login']);
 Route::get('accounts/index',[AccountController::class, 'index']);
 //Route::post('dologin', [AccountController::class, 'dologin']);
-
 
 //一覧表示画面
 //Route::get('items/index',[ItemController::class,'index'])->name('items.index');

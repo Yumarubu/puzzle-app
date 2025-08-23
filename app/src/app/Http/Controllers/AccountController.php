@@ -22,8 +22,8 @@ class AccountController extends Controller
     }
 
     //ログイン画面を表示する
-    public function login(){
-        return view('login');
+    public function login(Request $request){
+        return view('login',['error_id' => $request->error_id]);
     }
 
     public function dologin(Request $request){
