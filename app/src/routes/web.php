@@ -1,6 +1,8 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AccountController;
+use App\Http\Controllers\UserController;
+use App\Http
 use App\Http\Controllers\AuthControlloer;
 use \App\Http\Middleware\AuthMiddleware;
 
@@ -11,7 +13,8 @@ Route::get('/', function (){
 Route::get('/', [AccountController::class, 'login']);
 Route::get('accounts/index',[AccountController::class, 'index']);
 //Route::post('dologin', [AccountController::class, 'dologin']);
-
+Route::get('users/index', [UserController::class, 'index']);
+Route::get('score/index', [ScoreController::class, 'index']);
 
 //一覧表示画面
 //Route::get('items/index',[ItemController::class,'index'])->name('items.index');
