@@ -7,16 +7,14 @@
 <h1>・ログイン画面</h1>
 <form method="post" action="{{url('dologin')}}">
     @csrf
-    <p><input type="text" name="name"></p>
-    <p><input type="text" name="password"></p>
+    <p><input type="text" name="name" placeholder="ユーザー名を入力"></p>
+    <p><input type="text" name="password" placeholder="パスワードを入力"></p>
 
     <a href="accounts/index">次へ</a>
     <!--<input type="submit" value="ログイン">-->
 
-    @if ('name' !== 'jobi' && 'password' !== 'jobi')
-        名前とパスワードに誤りがあります。
-    @elseif ('name' !== 'jobi' && 'password' == 'jobi')
-        名前に誤りがあります。
+    @if (!empty($error))
+        {{$error}}
     @endif
 </form>
 </div>

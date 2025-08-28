@@ -11,8 +11,8 @@ Route::get('/', function (){
 });
 
 Route::get('/', [AccountController::class, 'login']);
+Route::post('/dologin', [AccountController::class, 'dologin']);
 Route::get('accounts/index',[AccountController::class, 'index']);
-//Route::post('dologin', [AccountController::class, 'dologin']);
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('score/index', [ScoreController::class, 'index']);
 

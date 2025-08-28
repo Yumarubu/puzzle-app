@@ -27,8 +27,17 @@ class AccountController extends Controller
     }
 
     public function dologin(Request $request){
-        //if ('name' == 'jobi' && 'password' == 'jobi') {
-            redirect('accounts/index');
-        //}
+        //フォームから送られた値を取得
+        $name = $request->input('name');
+        $password = $request->input('password');
+
+        if ($name == 'jobi' && $password == 'jobi')
+        {
+            return redirect('accounts/index');
+        }
+        else
+        {
+            return view('/', ['error' => 'ログインに失敗しました']);
+        }
     }
 }

@@ -10,6 +10,9 @@
     @foreach($accounts as $account)
         <li>名前:{{$account['name']}}　パス:{{$account['password']}}</li>
     @endforeach
+    <br><br>
+
+    <a href="../">[ログアウト]</a>
 </ul>
 </body>
 </html>
