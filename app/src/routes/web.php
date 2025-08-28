@@ -2,7 +2,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\UserController;
-use App\Http
+use App\Http\Controllers\ScoreController;
 use App\Http\Controllers\AuthControlloer;
 use \App\Http\Middleware\AuthMiddleware;
 
