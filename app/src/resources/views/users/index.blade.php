@@ -10,7 +10,7 @@
             <th>ID</th>
             <th>ユーザー名</th>
         </tr>
-        
+
         @foreach($users as $user)
             <tr>
                 <td>{{$user['id']}}</td>
