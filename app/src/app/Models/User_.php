@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+/**
+ * ユーザー
+ */
 class User_ extends Authenticatable
 {
     use HasFactory, Notifiable;
@@ -21,9 +24,10 @@ class User_ extends Authenticatable
         'email',
         'password',
     ];
-
+    
     public function detail()
     {
         return $this->hasOne(UserDetail::class);
     }
+
 }
