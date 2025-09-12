@@ -12,9 +12,16 @@
         @endforeach
 
         <br><br>
+        <form method="get" action="{{url('users/index')}}">
+            <button type="submit" name="index">ユーザー一覧</button>
+        </form>
+
+        <form method="get" action="{{url('score/index')}}">
+            <button type="submit" name="index">スコア一覧</button>
+        </form>
+
         <form method="get" action="{{url('/')}}">
-        <button type="submit" name="login">ログアウト</button>
-        <!--<a href="../">[ログアウト]</a>-->
+        <button type="submit" name="index">ログアウト</button>
         </form>
     </ul>
 
