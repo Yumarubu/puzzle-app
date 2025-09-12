@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Account;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class AccountsTableSeeder extends Seeder
 {
@@ -14,7 +15,7 @@ class AccountsTableSeeder extends Seeder
     public function run(): void
     {
         //
-        Account::crete([
+        Account::create([
             'name' => 'jobi',
             'password' => Hash::make('jobi')
         ]);

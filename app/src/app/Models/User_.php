@@ -24,7 +24,7 @@ class User_ extends Authenticatable
         'email',
         'password',
     ];
-    
+
     public function detail()
     {
         return $this->hasOne(UserDetail::class);

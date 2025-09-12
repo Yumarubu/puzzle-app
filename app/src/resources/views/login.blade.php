@@ -10,7 +10,8 @@
     <p><input type="text" name="name" placeholder="ユーザー名を入力"></p>
     <p><input type="text" name="password" placeholder="パスワードを入力"></p>
 
-    <a href="accounts/index">次へ</a>
+    <button type="submit" name="dologin">ログイン</button>
+    <!--<a href="accounts/index">次へ</a>-->
     <!--<input type="submit" value="ログイン">-->
 
     @if (!empty($error))
