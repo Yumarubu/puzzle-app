@@ -16,14 +16,6 @@
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/AuthControlloer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/AuthControlloer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_06_13_101250_create_accounts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2025_06_13_101250_create_accounts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeders/AccountsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/AccountsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeders/UserDetailsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/UserDetailsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../db/my.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
@@ -205,7 +197,7 @@
       <updated>1756717912300</updated>
       <workItem from="1756717913299" duration="7000" />
       <workItem from="1757684072756" duration="12442000" />
-      <workItem from="1757696705258" duration="2634000" />
+      <workItem from="1757696705258" duration="4033000" />
     </task>
     <servers />
   </component>
