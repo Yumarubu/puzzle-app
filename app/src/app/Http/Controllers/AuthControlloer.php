@@ -24,16 +24,16 @@ class AuthControlloer extends Controller
         $accounts = Account::All();
 
         //テーブルのレコード数を取得
-        $count = Account::count();
+        //$count = Account::count();
 
         //idで検索,見つからなかったら404エラー
-        $account = Account::findOrFail(1);
+        //$account = Account::findOrFail(1);
 
         //条件を指定して取得
-        $account = Account::where('name', '=', 'jobi')->get();
+        //$account = Account::where('name', '=', 'jobi')->get();
 
         //複数の条件を指定して取得
-        $account = Account::where('name', '=', 'jobi')->where('created_at', '>=', '2024-06-08')->get();
+        //$account = Account::where('name', '=', 'jobi')->where('created_at', '>=', '2024-06-08')->get();
 
         return  view('accounts/index',
             ['title' => $title, 'accounts' => $data]);

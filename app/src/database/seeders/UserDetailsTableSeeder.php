@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
+use App\Models\UserDetail;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -12,6 +14,16 @@ class UserDetailsTableSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        UserDetail::create([
+           'user_id' => 1,
+            'exp' =>    250,
+            'level' => 5
+        ]);
+
+        UserDetail::create([
+            'user_id' => 2,
+            'exp' =>    150,
+            'level' => 3
+        ]);
     }
 }

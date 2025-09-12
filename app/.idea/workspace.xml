@@ -12,10 +12,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/AuthControlloer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/AuthControlloer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_06_13_101250_create_accounts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2025_06_13_101250_create_accounts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/AccountsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/AccountsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/UserDetailsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/UserDetailsTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../db/my.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
@@ -156,23 +164,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/yumarubu/puzzle-app/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/yumarubu/puzzle-app/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="メイン" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/src/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -196,7 +204,8 @@
       <option name="presentableId" value="Default" />
       <updated>1756717912300</updated>
       <workItem from="1756717913299" duration="7000" />
-      <workItem from="1757684072756" duration="5258000" />
+      <workItem from="1757684072756" duration="12442000" />
+      <workItem from="1757696705258" duration="2634000" />
     </task>
     <servers />
   </component>

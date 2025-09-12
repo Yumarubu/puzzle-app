@@ -11,13 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('accounts', function (Blueprint $table) {
+        Schema::create('items', function (Blueprint $table) {
             $table->id();           //idカラム
-            $table->string('name',20);
+            $table->string('item_name',20);
+            $table->string('type',20);
+            $table->integer('effect');
+            $table->string('comment', 35);
             $table->timestamps();   //created_at,updated_at
 
             //$table->index('name');      //nameにインデックス設定
-            $table->unique('name');     //nameにユニーク設定
+            $table->unique('item_name');     //nameにユニーク設定
         });
     }
 
@@ -26,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('accounts');
+        Schema::dropIfExists('items');
     }
 };

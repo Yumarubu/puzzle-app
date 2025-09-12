@@ -4,6 +4,7 @@ use App\Http\Controllers\AccountController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ScoreController;
 use App\Http\Controllers\AuthControlloer;
+use App\Http\Controllers\ItemController;
 use \App\Http\Middleware\AuthMiddleware;
 
 Route::get('/', function (){
@@ -11,10 +12,13 @@ Route::get('/', function (){
 });
 
 Route::get('/', [AccountController::class, 'login']);
+Route::post('login', [AccountController::class, 'login']);
+Route::post('/logout', [AccountController::class, 'login']);
 Route::post('/dologin', [AccountController::class, 'dologin']);
 Route::get('accounts/index',[AccountController::class, 'index']);
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('score/index', [ScoreController::class, 'index']);
+Route::get('items/index', [ItemController::class, 'index']);
 
 //一覧表示画面
 //Route::get('items/index',[ItemController::class,'index'])->name('items.index');

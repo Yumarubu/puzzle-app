@@ -20,5 +20,14 @@ class AccountsTableSeeder extends Seeder
             'password' => Hash::make('jobi')
         ]);
 
+        Account::create([
+            'name' => 'kimu',
+            'password' => Hash::make('yuki')
+        ]);
+
+        Account::create([
+            'name' => 'satone',
+            'password' => Hash::make('yoshiyoshi')
+        ]);
     }
 }

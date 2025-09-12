@@ -41,7 +41,7 @@ class AccountController extends Controller
             ]
         ];
 
-        return view('accounts/index', ['title' => $title, 'accounts' => $data]);
+        return view('accounts/index', ['title' => $title, 'accounts' => $accounts]);
     }
 
     //ログイン画面を表示する
