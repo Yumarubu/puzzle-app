@@ -16,9 +16,11 @@
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/HaveItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/HaveItemController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_09_13_025556_have_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2025_09_13_025556_have_item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/HaveItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/HaveItemSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/haveItems/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/haveItems/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../db/my.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
@@ -201,7 +203,7 @@
       <workItem from="1756717913299" duration="7000" />
       <workItem from="1757684072756" duration="12442000" />
       <workItem from="1757696705258" duration="4033000" />
-      <workItem from="1757753722269" duration="6138000" />
+      <workItem from="1757753722269" duration="7587000" />
     </task>
     <servers />
   </component>

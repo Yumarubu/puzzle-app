@@ -11,17 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('have_item', function (Blueprint $table) {
+        Schema::create('have_items', function (Blueprint $table) {
             $table->id();           //idカラム
-            $table->string('user_name',20)->get('name',);
+            $table->string('user_name',20);
             $table->string('item_name',20);
-            //$table->string('type',20);
-            //$table->integer('effect');
             $table->integer('have_count');
             $table->timestamps();   //created_at,updated_at
 
             //$table->index('name');      //nameにインデックス設定
-            $table->unique('item_name');     //nameにユニーク設定
+            $table->unique('user_name');     //nameにユニーク設定
         });
     }
 
@@ -30,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('have_item');
+        Schema::dropIfExists('have_items');
     }
 };

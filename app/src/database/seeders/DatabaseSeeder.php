@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\HaveItem;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -17,5 +18,6 @@ class DatabaseSeeder extends Seeder
         $this->call(StagesTableSeeder::class);
         $this->call(UserDetailsTableSeeder::class);
         $this->call(ItemsSeeder::class);
+        $this->call(HaveItemSeeder::class);
     }
 }
