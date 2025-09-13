@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('have_item', function (Blueprint $table) {
             $table->id();           //idカラム
+            $table->string('user_name',20)->get('name',);
             $table->string('item_name',20);
-            $table->string('type',20);
-            $table->integer('effect');
+            //$table->string('type',20);
+            //$table->integer('effect');
             $table->integer('have_count');
             $table->timestamps();   //created_at,updated_at
 

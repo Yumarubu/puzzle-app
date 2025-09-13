@@ -20,6 +20,10 @@
             <button type="submit" name="index">アイテム一覧</button>
         </form>
 
+        <form method="get" action="{{url('haveItems/index')}}">
+            <button type="submit" name="index">所持アイテム一覧</button>
+        </form>
+
         <form method="get" action="{{url('score/index')}}">
             <button type="submit" name="index">スコア一覧</button>
         </form>

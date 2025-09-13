@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\HaveItemController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\UserController;
@@ -19,6 +21,7 @@ Route::get('accounts/index',[AccountController::class, 'index']);
 Route::get('users/index', [UserController::class, 'index']);
 Route::get('score/index', [ScoreController::class, 'index']);
 Route::get('items/index', [ItemController::class, 'index']);
+Route::get('haveItems/index', [HaveItemController::class, 'index']);
 
 //一覧表示画面
 //Route::get('items/index',[ItemController::class,'index'])->name('items.index');
