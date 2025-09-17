@@ -13,23 +13,27 @@
 
         <br><br>
         <form method="get" action="{{url('users/index')}}">
-            <button type="submit" name="index">ユーザー一覧</button>
+            <button type="submit">ユーザー一覧</button>
         </form>
 
         <form method="get" action="{{url('items/index')}}">
-            <button type="submit" name="index">アイテム一覧</button>
+            <button type="submit">アイテム一覧</button>
         </form>
 
         <form method="get" action="{{url('haveItems/index')}}">
-            <button type="submit" name="index">所持アイテム一覧</button>
+            <button type="submit">所持アイテム一覧</button>
         </form>
 
         <form method="get" action="{{url('score/index')}}">
-            <button type="submit" name="index">スコア一覧</button>
+            <button type="submit">スコア一覧</button>
+        </form>
+
+        <form method="get" action="{{url('userInfo/index')}}">
+            <button type="submit">ユーザー全情報一覧</button>
         </form>
 
         <form method="get" action="{{url('/')}}">
-        <button type="submit" name="index">ログアウト</button>
+            <button type="submit">ログアウト</button>
         </form>
     </ul>
 
