@@ -12,25 +12,21 @@
         @endforeach
 
         <br><br>
-        <form method="get" action="{{url('users/index')}}">
-            <button type="submit">ユーザー一覧</button>
-        </form>
 
-        <form method="get" action="{{url('items/index')}}">
-            <button type="submit">アイテム一覧</button>
-        </form>
+        <a href="../users/index">ユーザー一覧へ</a>
+        <br><br>
 
-        <form method="get" action="{{url('haveItems/index')}}">
-            <button type="submit">所持アイテム一覧</button>
-        </form>
+        <a href="../items/index">アイテム一覧へ</a>
+        <br><br>
 
-        <form method="get" action="{{url('score/index')}}">
-            <button type="submit">スコア一覧</button>
-        </form>
+        <a href="../haveItems/index">所持アイテム一覧へ</a>
+        <br><br>
 
-        <form method="get" action="{{url('userInfo/index')}}">
-            <button type="submit">ユーザー全情報一覧</button>
-        </form>
+        <a href="../score/index">スコア一覧へ</a>
+        <br><br>
+
+        <a href="../userInfo/index">ユーザー全情報一覧へ</a>
+        <br><br>
 
         <form method="get" action="{{url('/')}}">
             <button type="submit">ログアウト</button>

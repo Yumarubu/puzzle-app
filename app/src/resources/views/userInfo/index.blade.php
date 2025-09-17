@@ -1,5 +1,5 @@
 <html lang="ja">
-<h1>・ユーザー一覧・</h1>
+<h1>・ユーザー全情報一覧・</h1>
 <body>
 <input type="text" placeholder="名前を入力">
 <input type="submit" value="検索">

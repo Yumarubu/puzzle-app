@@ -16,15 +16,8 @@
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/HaveItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/HaveItemController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/User_.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_08_28_100532_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2025_08_28_100532_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2025_09_13_025556_have_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2025_09_13_025556_have_items.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeders/HaveItemSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/HaveItemSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/haveItems/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/haveItems/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/userInfo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/userInfo/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../db/my.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
@@ -212,7 +205,7 @@
       <workItem from="1757859228730" duration="4086000" />
       <workItem from="1757985208059" duration="2088000" />
       <workItem from="1757989652215" duration="4686000" />
-      <workItem from="1758067835727" duration="7809000" />
+      <workItem from="1758067835727" duration="9622000" />
     </task>
     <servers />
   </component>
