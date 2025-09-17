@@ -14,6 +14,8 @@ return new class extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name', 20);   //nameカラム(20文字)
+            $table->integer('level');
+            $table->integer('evolutionPoint');
             $table->timestamps();
         });
     }

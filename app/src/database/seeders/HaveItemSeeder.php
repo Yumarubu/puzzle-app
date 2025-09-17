@@ -14,21 +14,15 @@ class HaveItemSeeder extends Seeder
     public function run(): void
     {
         HaveItem::create([
-            'user_name' => 'jobi',
-            'item_name' => '回復薬',
-            'have_count' => 13
+            'user_id' => 2,
+            'item_id' => 1,
+            'amount' => 13
         ]);
 
         HaveItem::create([
-            'user_name' => 'kimu',
-            'item_name' => '復活の羽',
-            'have_count' => 2
-        ]);
-
-        HaveItem::create([
-            'user_name' => 'satone',
-            'item_name' => 'しあわせの靴',
-            'have_count' => 1
+            'user_id' => 3,
+            'item_id' => 3,
+            'amount' => 1
         ]);
     }
 }

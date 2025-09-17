@@ -8,13 +8,17 @@
     <table border="1">
         <tr>
             <th>ID</th>
-            <th>ユーザー名</th>
+            <th>名前</th>
+            <th>レベル</th>
+            <th>経験値</th>
         </tr>
 
         @foreach($users as $user)
             <tr>
                 <td>{{$user['id']}}</td>
                 <td> {{$user['name']}}</td>
+                <td> {{$user['level']}}</td>
+                <td> {{$user['evolutionPoint']}}</td>
             </tr>
         @endforeach
     </table>

@@ -13,13 +13,13 @@ return new class extends Migration
     {
         Schema::create('have_items', function (Blueprint $table) {
             $table->id();           //idカラム
-            $table->string('user_name',20);
-            $table->string('item_name',20);
-            $table->integer('have_count');
+            $table->integer('user_id');
+            $table->integer('item_id');
+            $table->integer('amount');
             $table->timestamps();   //created_at,updated_at
 
             //$table->index('name');      //nameにインデックス設定
-            $table->unique('user_name');     //nameにユニーク設定
+            $table->unique('user_id','item_id');     //nameにユニーク設定
         });
     }
 

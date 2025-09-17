@@ -15,7 +15,7 @@
             <td>{{$haveItem['id']}}</td>
             <td>{{$haveItem['user_name']}}</td>
             <td>{{$haveItem['item_name']}}</td>
-            <td>{{$haveItem['have_count']}}</td>
+            <td>{{$haveItem['amount']}}</td>
         </tr>
     @endforeach
 
