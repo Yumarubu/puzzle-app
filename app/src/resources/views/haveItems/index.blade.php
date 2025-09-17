@@ -10,12 +10,12 @@
         <th>所持個数</th>
     </tr>
 
-    @foreach($haveItems as $haveItem)
+    @foreach($have_items as $have_item)
         <tr>
-            <td>{{$haveItem['id']}}</td>
-            <td>{{$haveItem['user_name']}}</td>
-            <td>{{$haveItem['item_name']}}</td>
-            <td>{{$haveItem['amount']}}</td>
+            <td>{{$have_item['id']}}</td>
+            <td>{{$have_item['user_name']}}</td>
+            <td>{{$have_item['item_name']}}</td>
+            <td>{{$have_item['amount']}}</td>
         </tr>
     @endforeach
 

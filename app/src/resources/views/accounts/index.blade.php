@@ -19,7 +19,7 @@
         <a href="../items/index">アイテム一覧へ</a>
         <br><br>
 
-        <a href="../haveItems/index">所持アイテム一覧へ</a>
+        <a href="../have-items/index">所持アイテム一覧へ</a>
         <br><br>
 
         <a href="../score/index">スコア一覧へ</a>

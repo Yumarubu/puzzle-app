@@ -16,8 +16,12 @@
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker-php-ext-xdebug.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/HaveItemController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/HaveItemController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/UsersSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/UsersSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/accounts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/views/userInfo/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/userInfo/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/haveItems/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/haveItems/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../db/my.cnf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
     </list>
@@ -205,7 +209,8 @@
       <workItem from="1757859228730" duration="4086000" />
       <workItem from="1757985208059" duration="2088000" />
       <workItem from="1757989652215" duration="4686000" />
-      <workItem from="1758067835727" duration="9622000" />
+      <workItem from="1758067835727" duration="11340000" />
+      <workItem from="1758082718063" duration="4594000" />
     </task>
     <servers />
   </component>

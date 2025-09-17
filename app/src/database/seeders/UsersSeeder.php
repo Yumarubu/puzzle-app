@@ -30,5 +30,7 @@ class UsersSeeder extends Seeder
             'level' => 8,
             'evolutionPoint' => 63
         ]);
+
+        User::factory(100)->create();
     }
 }
